@@ -1,8 +1,12 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 
-def extract_content(url, output_file="website_content.txt"):
+def extract_content(url, output_file=r"content/website_content.txt"):
     headers = {"User-Agent": "Mozilla/5.0"}
+    
+    # Ensure directory exists
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     
     try:
         response = requests.get(url, headers=headers)
@@ -11,11 +15,11 @@ def extract_content(url, output_file="website_content.txt"):
         # Parse HTML
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # Remove script and style elements
+        # Remove unnecessary elements
         for tag in soup(["script", "style", "meta", "noscript", "iframe"]):
             tag.decompose()
 
-        # Extract text content
+        # Extract visible text content
         text_content = soup.get_text(separator="\n", strip=True)
 
         # Save to .txt file
