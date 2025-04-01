@@ -1,74 +1,76 @@
 import os
-import logging
-from langchain_groq import ChatGroq
-from langchain_community.document_loaders import PyPDFDirectoryLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.agents import create_openai_tools_agent
-from langchain.agents import AgentExecutor
-import time
-from dotenv import load_dotenv
+import groq
 
-load_dotenv()
-logging.getLogger("langchain").setLevel(logging.ERROR)  # Suppress unnecessary logs
+# Set your Groq API key
+GROQ_API_KEY = "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"
 
-groq_api_key = os.getenv('GROQ_API_KEY')
+# Dynamically get the correct file path
+file_path = r"prashna\content\website_content.txt"
 
-# Load PDFs
-loader = PyPDFDirectoryLoader(r".\pdf_app_test")
-docs = loader.load()
-print(f"✅ Loaded {len(docs)} documents successfully.")
-
-documents = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0).split_documents(docs)
-print(f"✅ Successfully split into {len(documents)} text chunks.")
-
-# Embedding Model
-embeddings_model = HuggingFaceEmbeddings(model_name=r"C:\Users\hp\Desktop\prashna\models\all-MiniLM-L6-v2")
-vectordb = FAISS.from_documents(documents, embeddings_model)
-retriever = vectordb.as_retriever()
-
-from langchain.tools.retriever import create_retriever_tool
-pdf_tool = create_retriever_tool(retriever, "pdf_search", "Search for PDF information only!")
-
-tools = [pdf_tool]
-
-# Load LLaMA 3 (via GROQ)
-llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama3-8b-8192")
-
-# Prompt Setup
-prompt = ChatPromptTemplate.from_template(
-"""
-Answer the questions based on the provided PDF context only.
-Provide accurate and detailed responses strictly from the PDF content.
-<context>
-{context}
-<context>
-Questions:{input}
-{agent_scratchpad}
-"""
-)
-
-agent = create_openai_tools_agent(llm, tools, prompt)
-agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=False)
-
-while True:
-    query = input("Input your query here: ")
-    if query.lower() in ["exit", "quit", "q"]:
-        print("Exiting... Goodbye!")
-        break
-
-    start_time = time.time()
+def load_text(file_path):
+    """
+    Reads the content text file and returns its content.
+    """
     try:
-        response = agent_executor.invoke({
-            "input": query,
-            "context": "",
-            "agent_scratchpad": ""
-        })
-        print(f"\n🟩 Final Output:\n{response['output']}")
-        print(f"⏱️ Total Response Time: {time.time() - start_time:.2f} seconds")
+        with open(file_path, "r", encoding="utf-8") as file:
+            return file.read()
+    except FileNotFoundError:
+        return "Error: Content file not found."
 
+def ask_groq(question, client):
+    """
+    Asks a question based on the content of website_content.txt.
+    """
+    content_text = load_text(file_path)
+    
+    if "Error" in content_text:
+        return content_text  # Return error if the file is missing
+    
+    try:
+        chat_completion = client.chat.completions.create(
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You are an AI chatbot trained on a website's content."
+                        "Answer questions accurately based on the content."
+                        "If the question is outside the content, answer within a related context."
+                    ),
+                },
+                {"role": "user", "content": f"Content: {content_text}\n\nQuestion: {question}"},
+            ],
+            model="llama3-70b-8192",
+            temperature=0.5,
+            max_tokens=1024,
+            top_p=1,
+            stop=None,
+        )
+        
+        return chat_completion.choices[0].message.content
+    
     except Exception as e:
-        print(f"❗ Error: {e}") 
+        return f"Error: {str(e)}"
+
+def chatbot():
+    """
+    Runs the chatbot in a loop.
+    """
+    if not GROQ_API_KEY:
+        print("Error: Please set your Groq API key.")
+        return
+
+    client = groq.Groq(api_key=GROQ_API_KEY)
+
+    print("Welcome to the website chatbot! Type 'exit' to quit.")
+    
+    while True:
+        user_input = input("You: ")
+        if user_input.lower() == "exit":
+            print("Chatbot: Goodbye!")
+            break
+        
+        response = ask_groq(user_input, client)
+        print(f"Chatbot: {response}")
+
+if __name__ == "__main__":
+    chatbot()
