@@ -5,7 +5,8 @@ import groq
 GROQ_API_KEY = "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"
 
 # Dynamically get the correct file path
-file_path = r"prashna\content\website_content.txt"
+file_path = r"content\website_content.txt"
+# file_path = r"C:\Users\hp\Desktop\prashna\prashna\scraped_pages\_.txt"
 
 def load_text(file_path):
     """
@@ -16,6 +17,44 @@ def load_text(file_path):
             return file.read()
     except FileNotFoundError:
         return "Error: Content file not found."
+    
+
+# def ask_groq(question, client):
+#     """
+#     Asks a question based on the content of website_content.txt.
+#     """
+#     content_text = load_text(file_path)
+    
+#     if "Error" in content_text:
+#         return content_text  # Return error if the file is missing
+    
+#     try:
+#         chat_completion = client.chat.completions.create(
+#             messages=[
+#                 {
+#                     "role": "system",
+#                     "content": (
+#                         "You are an AI chatbot trained on a website's content html architecture."
+#                         "Answer questions accurately based on the content."
+#                         "Just answer in words, don't give any instance of code,"
+#                         "If the question is outside the content, answer within a related context."
+#                     ),
+#                 },
+#                 {"role": "user", "content": f"Content: {content_text}\n\nQuestion: {question}"},
+#             ],
+#             model="llama3-70b-8192",
+#             temperature=0.5,
+#             max_tokens=1024,
+#             top_p=1,
+#             stop=None,
+#         )
+        
+#         return chat_completion.choices[0].message.content
+    
+#     except Exception as e:
+#         return f"Error: {str(e)}"
+    
+
 
 def ask_groq(question, client):
     """
