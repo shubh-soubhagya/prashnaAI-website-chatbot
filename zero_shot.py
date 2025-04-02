@@ -1,8 +1,10 @@
 import os
 import groq
+from dotenv import load_dotenv
 
 # Set your Groq API key
-GROQ_API_KEY = "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"
+load_dotenv()
+groq_api_key = os.getenv('GROQ_API_KEY')
 
 # Dynamically get the correct file path
 file_path = r"C:\Users\hp\Desktop\prashna\prashna\content\website_content.txt"
@@ -94,11 +96,11 @@ def chatbot():
     """
     Runs the chatbot in a loop.
     """
-    if not GROQ_API_KEY:
+    if not groq_api_key:
         print("Error: Please set your Groq API key.")
         return
 
-    client = groq.Groq(api_key=GROQ_API_KEY)
+    client = groq.Groq(api_key=groq_api_key)
 
     print("Welcome to the website chatbot! Type 'exit' to quit.")
     
