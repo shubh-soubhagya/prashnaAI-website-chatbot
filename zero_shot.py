@@ -5,7 +5,7 @@ import groq
 GROQ_API_KEY = "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"
 
 # Dynamically get the correct file path
-file_path = r"content\website_content.txt"
+file_path = r"C:\Users\hp\Desktop\prashna\prashna\content\website_content.txt"
 # file_path = r"C:\Users\hp\Desktop\prashna\prashna\scraped_pages\_.txt"
 
 def load_text(file_path):
