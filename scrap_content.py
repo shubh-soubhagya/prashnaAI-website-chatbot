@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-def extract_content(url, output_file=r"content/website_content.txt"):
+def extract_content(url, output_file=r"prashna/content/website_content.txt"):
     headers = {"User-Agent": "Mozilla/5.0"}
     
     # Ensure directory exists
@@ -32,5 +32,5 @@ def extract_content(url, output_file=r"content/website_content.txt"):
         print(f"❌ Error fetching the URL: {e}")
 
 # Example usage
-url = "https://kavachinnovations.com/"  # Replace with your target website
+url = "https://purezzatechnologies.com/"  # Replace with your target website
 extract_content(url)
