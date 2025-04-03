@@ -92,26 +92,26 @@ def ask_groq(question, client):
     except Exception as e:
         return f"Error: {str(e)}"
 
-def chatbot():
-    """
-    Runs the chatbot in a loop.
-    """
-    if not groq_api_key:
-        print("Error: Please set your Groq API key.")
-        return
+# def chatbot():
+#     """
+#     Runs the chatbot in a loop.
+#     """
+#     if not groq_api_key:
+#         print("Error: Please set your Groq API key.")
+#         return
 
-    client = groq.Groq(api_key=groq_api_key)
+#     client = groq.Groq(api_key=groq_api_key)
 
-    print("Welcome to the website chatbot! Type 'exit' to quit.")
+#     print("Welcome to the website chatbot! Type 'exit' to quit.")
     
-    while True:
-        user_input = input("You: ")
-        if user_input.lower() == "exit":
-            print("Chatbot: Goodbye!")
-            break
+#     while True:
+#         user_input = input("You: ")
+#         if user_input.lower() == "exit":
+#             print("Chatbot: Goodbye!")
+#             break
         
-        response = ask_groq(user_input, client)
-        print(f"Chatbot: {response}")
+#         response = ask_groq(user_input, client)
+#         print(f"Chatbot: {response}")
 
-if __name__ == "__main__":
-    chatbot()
+# if __name__ == "__main__":
+#     chatbot()
