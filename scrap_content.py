@@ -31,6 +31,6 @@ def extract_content(url, output_file=r"content/website_content.txt"):
     except requests.exceptions.RequestException as e:
         print(f"❌ Error fetching the URL: {e}")
 
-# Example usage
-url = "https://indianexpress.com/article/technology/artificial-intelligence/7-free-ghibli-style-ai-image-editors-you-can-use-online-right-now-9917247/"  # Replace with your target website
-extract_content(url)
+# # Example usage
+# url = "https://indianexpress.com/article/technology/artificial-intelligence/7-free-ghibli-style-ai-image-editors-you-can-use-online-right-now-9917247/"  # Replace with your target website
+# extract_content(url)
