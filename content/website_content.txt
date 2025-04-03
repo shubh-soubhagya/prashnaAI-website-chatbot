@@ -1,299 +1,322 @@
-Learn to code solving problems and writing code with our
-hands-on coding
-course.
-Learn to code solving problems with our
-hands-on coding
-course!
-Try Programiz PRO today.
-Sale ends in
-Learn to code solving problems and writing code with our
-hands-on coding
-course.
-Learn to code solving problems with our
-hands-on coding
-course!
-Try Programiz PRO today.
-Sale ends in
-Tutorials
-Examples
-Courses
-Login to PRO
-Tutorials
-Courses
-Python
-JavaScript
-SQL
-HTML
-CSS
-R
-C
-C++
-Java
-RUST
-Golang
-Kotlin
-Swift
-C#
-DSA
-Learn Python practically
-and
-Get Certified
-.
-ENROLL
-Popular Tutorials
-Getting Started With Python
-Python if Statement
-while Loop in Python
-Python Lists
-Dictionaries in Python
-Start Learning Python
-Popular Examples
-Add two numbers
-Check prime number
-Find the factorial of a number
-Print the Fibonacci sequence
-Check leap year
-Explore Python Examples
-Reference Materials
-Built-in Functions
-List Methods
-Dictionary Methods
-String Methods
-View all
-Created with over a decade of experience.
-Learn
-Practice
-Compete
-Learn Python
-Learn HTML
-Learn JavaScript
-Learn SQL
-Learn DSA
-Learn C
-Learn C++
-Learn Java
-View all Courses on
-Python Basics
-Python Intermediate
-C++ Basics
-C++ Intermediate
-C++ OOP
-C Programming
-Java Basics
-Java Intermediate
-Java OOP
-View all Courses on
-Python Challenges
-JavaScript Challenges
-Java Challenges
-C++ Challenges
-C Challenges
-View all Challenges on
-Learn
-Practice
-Compete
-Certification Courses
-Created with over a decade of experience and thousands of feedback.
-Learn Python
-Learn HTML
-Learn JavaScript
-Learn SQL
-Learn DSA
-View all Courses on
-Learn C
-Learn C++
-Learn Java
-Python
-JavaScript
-SQL
-HTML
-CSS
-R
-C
-C++
-Java
-More languages
-Learn Python practically
-and
-Get Certified
-.
-Try Programiz PRO!
-Popular Tutorials
-Getting Started With Python
-Python if Statement
-while Loop in Python
-Python Lists
-Dictionaries in Python
-Start Learning Python
-All Python Tutorials
-Reference Materials
-Built-in Functions
-List Methods
-Dictionary Methods
-String Methods
-View all
-Python
-JavaScript
-R
-C
-C++
-Java
-Kotlin
-Learn Python practically
-and
-Get Certified
-.
-Try Programiz PRO!
-Popular Examples
-Add two numbers
-Check prime number
-Find the factorial of a number
-Print the Fibonacci sequence
-Check leap year
-All Python Examples
-Learn programming for
-Free
-Quick-read tutorials with code examples that you can run and copy—perfect for self-paced learning.
-Python
-SQL
-R
-HTML
-CSS
-JavaScript
-Java
-C
-C++
-C#
-Go
-Kotlin
-Swift
-DSA
-NumPy
-Pandas
-Rust
-Our Hands-on Coding Platform
-Created with a decade of experience in teaching programming and feedback from millions of
-                users, Programiz PRO offers everything you need to learn to code in one place.
-Overcome your fear of coding with Programiz PRO's
-Hands-on learning
-Practice what you learn with our interactive courses, practice problems, and quizzes.
-Practice projects
-Build your confidence through guided real-world projects.
-Coding challenges
-Level up your skills with our challenges and compete on our global leaderboard.
-AI mentor
-Get personalized AI help with code explanation, error fixing, and feedback for improvements.
-Professional certificates
-Showcase your expertise and stand out to your potential employers.
-Try Programiz PRO
-Practice with our Online Compilers
-We believe coding should be accessible to all, so we made our own compilers for web and mobile—and they're free!
-Python Compiler
-R Compiler
-SQL Editor
-HTML/CSS Editor
-JavaScript Compiler
-Java Compiler
-C Compiler
-C++ Compiler
-C# Compiler
-Go Compiler
-PHP Compiler
-Swift Compiler
-Rust Compiler
-Programiz YouTube
-Join 180k+ users learning through step-by-step videos.
-Perfect for beginners, our video course helps you build a strong programming foundation.
-Python for Beginners
-C Programming for Beginners
-JavaScript for Beginners
-Learn on YouTube
-Why Programiz?
-For programmers, by programmers
-We're not just teachers—we're active programmers creating resources
-                            we wish we had when learning to code.
-Coding isn't easy
-We believe in honest, practical learning. Expect to work hard, write lots of code,
-                            and build genuine programming skills that employers value.
-Learn by doing
-Theory alone isn't enough. Every concept has complete code
-                            examples you can run, modify, and use in your projects.
-850k+
-Students on
-Programiz PRO
-10M+
-Learners on
-Programiz.com
-180k+
-Subscribers on
-YouTube
-1.5M+
-Downloads on
-Mobile Apps
-Learn on the Go: Programiz for iOS & Android
-Take your learning on the go with our highly rated iOS and Android apps—perfect for practicing during your commute or coffee break.
-Learn Python App
-Learn more
-Learn C Programming App
-Learn more
-Learn Java App
-Learn more
-Learn C++ App
-Learn more
-Free Tutorials
-Python 3 Tutorials
-SQL Tutorials
-R Tutorials
-HTML Tutorials
-CSS Tutorials
-JavaScript Tutorials
-Java Tutorials
-C Tutorials
-C++ Tutorials
-DSA Tutorials
-C# Tutorials
-Golang Tutorials
-Kotlin Tutorials
-Swift Tutorials
-Rust Tutorials
-Paid Courses
-Master Python
-Learn SQL
-Learn HTML
-FREE
-Master JavaScript
-Master C
-Master C++
-Master Java
-Master DSA with Python
-Online Compilers
-Python Compiler
-R Compiler
-SQL Editor
-HTML/CSS Editor
-JavaScript Editor
-Java Compiler
-C Compiler
-C++ Compiler
-C# Compiler
-Go Compiler
-PHP Compiler
-Swift Compiler
-Rust Compiler
-Mobile Apps
-Learn Python App
-Learn C App
-Learn Java App
-Learn C++ App
-Company
-Change Ad Consent
-Do not sell my data
-About
+Skip links
+Skip to primary navigation
+Skip to content
+Menu
+Home
+Our mission and vision
+Our Products
+Website Security Garudax Tools
+Application Security GarudaX
+AI Powered DLP Solution
+Services
+Network Security
+Penetration Testing
+Vulnerability Assessment
+Web & App Security
+Security Consultancy
+Security Auditing
+Security Training
+Account Recovery
+Our Team
+Contact us
+We're working on future of security!
+Your
+Shield
+in cyber space
+GarudaX
+GarudaX is your trusted partner in cyber security, dedicated to protecting your business from digital threats. Secure your data, preserve your privacy, and defend your digital landscape with cutting-edge technology and expert solutions.
+Get Started - It's Free
+Digi-अस्त्र: A GarudaX Project
+Digi-अस्त्र is a powerful cybersecurity tool by GarudaX, designed to identify, analyze, and mitigate security vulnerabilities in web applications. Using AI-driven automation, it conducts in-depth security assessments, detecting threats like SQL injection, XSS, and misconfigurations. With real-time analysis and detailed reporting, it helps businesses secure their digital assets and comply with industry standards.
+Built to tackle evolving cyber threats, Digi-अस्त्र offers automated VAPT (Vulnerability Assessment and Penetration Testing) with actionable insights for strengthening defenses. Its user-friendly interface ensures seamless security analysis for startups and enterprises alike, making cybersecurity more accessible and effective.
+Try Now!
+GarudaX Powered Services
+Your
+Guardian
+in
+the
+Digital
+Age:
+Total
+Security,
+Total
+Trust
+with
+GarudaX
+Services.
+Security Training
+20-Report
+Security Auditing
+Security Consultancy
+Vulnerability Assessment
+Network Security
+security, shield, maintenance, hand, gesture, shield
+Peneteration Testing
+Account Recovery
+2 Factor Authentication
+DDOs Protection
+Cyber Security
+Information Security
+Data Protection
+Threat Detection
+YouTube video
+Blog post
+Pricing Tables
+Vulnerability Assessment
+Penetration Testing
+Firewall Protection
+Encryption
+Testimonials
+Liquid Box
+Liquid Tabs
+Vulnerability Assessment
+Penetration Testing
+Firewall Protection
+Encryption
+Testimonials
+Liquid Box
+Liquid Tabs
+Cyber Security
+Information Security
+Data Protection
+Threat Detection
+YouTube video
+Blog post
+Pricing Tables
+Vulnerability Assessment
+Penetration Testing
+Firewall Protection
+Encryption
+Testimonials
+Liquid Box
+Liquid Tabs
+Cyber Security
+Information Security
+Data Protection
+Threat Detection
+YouTube video
+Blog post
+Pricing Tables
+Malware Prevention
+Intrusion Detection
+Network Security
+Security Audit
+GOOGLE MAPS
+Liquid Glow
+Particles
+We are not a regular company. We are Brand of Cyber Security.
+Even Brhama had Brahmastra
+Our
+DIGI
+अस्त्र
+Kali
+Linux
+Burp
+Suite
+Arch
+Linux
+Nikto
+Tool
+NMAP
+Network
+Nessus
+Tenable
+We
+are
+not
+limited
+to
+only
+these
+Tech
+Stacks.
 Contact
-Blog
-Youtube
-Careers
-Advertising
-Privacy Policy
-Terms & Conditions
-© Parewa Labs Pvt. Ltd. All rights reserved.
+us
+to
+explore
+our
+Digiअस्त्र
+!
+Take Your
+Security to the Next Level
+Monitor
+and
+enhance
+your
+website
+security
+with
+GarudaX.
+Vulnerability Assessment
+Peneteration Testing
+Suggested fix and Security Solutions
+Bingo!
+Ahh!
+😀
+You're
+diving
+deeper
+into
+GarudaX.
+Since you're diving deep into the GarudaX universe, it's only fair that you know the truth: we're not just working on the future—we're building it. At GarudaX, we believe that security should be the main course, not just a side dish. After all, who wants to build the future if it's not safe to live in? So, buckle up and get ready, because with GarudaX, tomorrow's security isn't just an option—it's a priority.
+One
+Stop
+Solution
+for
+your
+IT
+Infrastructure
+Security.
+Threat Analysis
+Security Impact
+Suggested fix and Security Solutions
+Bingo!
+Ahh!
+😀
+You're
+diving
+deeper
+into
+GarudaX.
+Since you're diving deep into the GarudaX universe, it's only fair that you know the truth: we're not just working on the future—we're building it. At GarudaX, we believe that security should be the main course, not just a side dish. After all, who wants to build the future if it's not safe to live in? So, buckle up and get ready, because with GarudaX, tomorrow's security isn't just an option—it's a priority.
+Audit
+your
+business
+security
+with
+GarudaX.
+Comprehensive Risk Assessment
+Compliance Assurance
+Proactive Threat Mitigation
+Bingo!
+Ahh!
+😀
+You're
+diving
+deeper
+into
+GarudaX.
+Since you're diving deep into the GarudaX universe, it's only fair that you know the truth: we're not just working on the future—we're building it. At GarudaX, we believe that security should be the main course, not just a side dish. After all, who wants to build the future if it's not safe to live in? So, buckle up and get ready, because with GarudaX, tomorrow's security isn't just an option—it's a priority.
+Unmatched
+Network
+Security
+Solutions
+by
+GarudaX
+Intrusion Detection & Prevention
+Secure Network Architecture
+Advanced Encryption Protocols
+Bingo!
+Ahh!
+😀
+You're
+diving
+deeper
+into
+GarudaX.
+Since you're diving deep into the GarudaX universe, it's only fair that you know the truth: we're not just working on the future—we're building it. At GarudaX, we believe that security should be the main course, not just a side dish. After all, who wants to build the future if it's not safe to live in? So, buckle up and get ready, because with GarudaX, tomorrow's security isn't just an option—it's a priority.
+Load more services
+1
+Select a Template
+Our tools can help you produce everything from product descriptions and blog posts to email newsletters and social media updates.
+2
+Describe your Idea
+Simply input some basic information or keywords about your brand or product, and let our AI algorithms do the rest.
+3
+Generate Copy
+View, edit or export your result with a few clicks.
+1
+Select a Template
+Our tools can help you produce everything from product descriptions and blog posts to email newsletters and social media updates.
+2
+Describe your Idea
+Simply input some basic information or keywords about your brand or product, and let our AI algorithms do the rest.
+3
+Generate Copy
+View, edit or export your result with a few clicks.
+The
+future of
+Cybersecurity.
+Your Partner in Digital realm
+Powered by GarudaX
+Advanced Assessment
+CVSS Score
+9.0
+Vulnerability Risk
+High
+SQl Injection
+Cross Site Scripting
+OWASP TOP 10
+Command Injection
+Broken Access
+Cryptography
+Insecure Design
+Misconfiguration
+Data Integrity
+⋮
+Trusted by millions
+Unmatched
+Network
+Security
+Solutions
+by
+GarudaX
+Intrusion Detection & Prevention
+Secure Network Architecture
+Advanced Encryption Protocols
+Bingo!
+Ahh!
+😀
+You're
+diving
+deeper
+into
+GarudaX.
+Since you're diving deep into the GarudaX universe, it's only fair that you know the truth: we're not just working on the future—we're building it. At GarudaX, we believe that security should be the main course, not just a side dish. After all, who wants to build the future if it's not safe to live in? So, buckle up and get ready, because with GarudaX, tomorrow's security isn't just an option—it's a priority.
+GarudaX Client Reviews
+HUB AI SHOP
+HUB AI SHOP
+Hear
+from
+them
+talking.
+Trusted
+reviews
+from
+our
+businesses
+demonstrate
+the
+effectiveness
+and
+user
+satisfaction
+of
+our
+security
+services.
+Instagram
+LinkedIn
+Subscribe
+Subscribe
+🍪 This website uses cookies to improve your web experience.
+Accept
+Home
+Our mission and vision
+Our Products
+Website Security Garudax Tools
+Application Security GarudaX
+AI Powered DLP Solution
+Services
+Network Security
+Penetration Testing
+Vulnerability Assessment
+Web & App Security
+Security Consultancy
+Security Auditing
+Security Training
+Account Recovery
+Our Team
+Contact us
+Loading...
+×
