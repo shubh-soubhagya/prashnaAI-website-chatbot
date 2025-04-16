@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashna Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container" id="app">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <span class="logo-icon">🤖</span>
+                <h1>Prashna Bot</h1>
+            </div>
+            <div class="header-buttons">
+                <button id="historyBtn">History</button>
+                <button id="contentBtn">Website Content</button>
+                <button id="themeToggleBtn">Dark Mode</button>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Sidebar for History -->
+            <aside id="sidebar" class="hidden">
+                <div class="sidebar-header">
+                    <h2>History</h2>
+                    <button id="closeSidebarBtn">&times;</button>
+                </div>
+                <div id="historyList"></div>
+            </aside>
+
+            <!-- Website Content Viewer -->
+            <div id="contentViewer" class="hidden">
+                <div class="content-header">
+                    <h2>Website Content</h2>
+                    <div class="content-actions">
+                        <button id="downloadContentBtn">Download</button>
+                        <button id="closeContentBtn">&times;</button>
+                    </div>
+                </div>
+                <div id="contentDisplay"></div>
+            </div>
+
+            <!-- Chat Area -->
+            <div class="chat-container">
+                <div id="chatMessages">
+                    <!-- Default welcome message -->
+                    <div class="message bot">
+                        <p>Please enter any website link for asking questions related to it.</p>
+                    </div>
+                </div>
+                
+                <div class="input-container">
+                    <input type="text" id="userInput" placeholder="Enter website URL or ask a question...">
+                    <button id="sendBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

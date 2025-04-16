@@ -73,5 +73,3 @@ def scrape_all_pages(base_url):
 # Example usage
 base_url = "https://kavachinnovations.com/"  # Replace with your target website
 scrape_all_pages(base_url)
-
-

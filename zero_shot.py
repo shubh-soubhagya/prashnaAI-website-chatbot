@@ -1,3 +1,4 @@
+
 import os
 import groq
 from dotenv import load_dotenv
@@ -7,7 +8,7 @@ load_dotenv()
 groq_api_key = os.getenv('GROQ_API_KEY')
 
 # Dynamically get the correct file path
-file_path = r"C:\Users\hp\Desktop\prashna\prashna\content\website_content.txt"
+file_path = r"Prashna\content\website_content.txt"
 # file_path = r"C:\Users\hp\Desktop\prashna\prashna\scraped_pages\_.txt"
 
 def load_text(file_path):
@@ -80,7 +81,7 @@ def ask_groq(question, client):
                 },
                 {"role": "user", "content": f"Content: {content_text}\n\nQuestion: {question}"},
             ],
-            model="llama3-70b-8192",
+            model="gemma2-9b-it",
             temperature=0.5,
             max_tokens=1024,
             top_p=1,
