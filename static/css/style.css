@@ -7,7 +7,7 @@
     --border-color: #ddd;
     --shadow-color: rgba(0, 0, 0, 0.1);
     --bot-msg-bg: #e3f2fd;
-    --user-msg-bg: #f1f3f4;
+    --user-msg-bg: #e6f4ea;  /* Changed to a light green color for better distinction */
     --sidebar-bg: #fff;
     --sidebar-text: #333;
 }
@@ -66,6 +66,30 @@ header {
 .logo-icon {
     font-size: 24px;
     margin-right: 10px;
+}
+
+/* New Chat Icon Button */
+.new-chat-icon {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
+    transition: background-color 0.2s;
+}
+
+.new-chat-icon:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .header-buttons button {
@@ -130,6 +154,30 @@ aside.hidden {
     font-size: 24px;
     cursor: pointer;
     color: var(--sidebar-text);
+}
+
+/* New Chat Button Styles */
+.new-chat-container {
+    padding: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+#newChatBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+#newChatBtn:hover {
+    background-color: var(--primary-color);
+    opacity: 0.9;
 }
 
 #historyList {

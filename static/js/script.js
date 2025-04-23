@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const closeContentBtn = document.getElementById('closeContentBtn');
     const downloadContentBtn = document.getElementById('downloadContentBtn');
     const contentDisplay = document.getElementById('contentDisplay');
+    const newChatBtn = document.getElementById('newChatBtn');
+    const newChatIconBtn = document.getElementById('newChatIconBtn');
 
     // State variables
     let currentUrl = '';
@@ -43,6 +45,10 @@ document.addEventListener('DOMContentLoaded', function() {
     closeSidebarBtn && closeSidebarBtn.addEventListener('click', toggleHistorySidebar);
     closeContentBtn && closeContentBtn.addEventListener('click', closeContentViewer);
     downloadContentBtn && downloadContentBtn.addEventListener('click', downloadContent);
+    
+    // New chat buttons event listeners
+    newChatBtn && newChatBtn.addEventListener('click', startNewChat);
+    newChatIconBtn && newChatIconBtn.addEventListener('click', startNewChat);
 
     // Functions
     function handleSendMessage() {
@@ -229,6 +235,27 @@ document.addEventListener('DOMContentLoaded', function() {
         // Set current state
         currentUrl = url;
         waitingForUrl = false;
+    }
+
+    // Function to start a new chat
+    function startNewChat() {
+        // Clear chat messages
+        chatMessages.innerHTML = '';
+        
+        // Add welcome message
+        addMessageToChat('Please enter any website link for asking questions related to it.', 'bot');
+        
+        // Reset state
+        currentUrl = '';
+        waitingForUrl = true;
+        
+        // Close sidebar if it's open
+        if (sidebar && !sidebar.classList.contains('hidden')) {
+            sidebar.classList.add('hidden');
+        }
+        
+        // Focus on input
+        userInput.focus();
     }
 
     function showWebsiteContent() {
