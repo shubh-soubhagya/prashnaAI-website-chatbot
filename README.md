@@ -1,4 +1,4 @@
-# YouTube Transcript ChatBot
+# PrashnaAI Website Chatbot
 
 **PrashnaAI Website Chatbot** is an intelligent tool that lets users input any website URL and instantly chat with its content. It supports real-time Q&A, content summarization, and downloading in .txt format. Ideal for students, researchers, analysts, and professionals needing fast insights from blogs, articles, documentation, or knowledge bases.
 
