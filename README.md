@@ -22,10 +22,6 @@
 
 ---
 
-## 📦 Custom Packages
-- **`transcript_extractor`**: Extracts and preprocesses YouTube video transcripts efficiently.
-- **`transcriptQA`**: Enables AI-driven question-answering functionality using the `llama3-70b-8192` model via the Groq inference API.
-
 ## 🛠 Installation & Setup
 
 Follow these steps to set up and run the YouTube Support ChatBot on your local machine:
