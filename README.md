@@ -6,25 +6,21 @@
 
 ## 🚀 Features
 
-- **AI-Powered Question Answering**: Get precise answers based on YouTube video transcripts.
-- **Interactive Web-Based Interface**: Easy-to-use UI for seamless interactions.
-- **Chat History Navigation**: Browse previous queries for improved research efficiency.
-- **Transcript Download**: Extract and save video transcripts for offline reference.
-- **Ideal for Researchers & Professionals**: Quickly analyze lectures, tutorials, and discussions.
+- **URL-to-Chat AI Assistant**: Enter any website URL and chat in real-time with its content.
+- **Smart Summarization**: Receive concise answers and key insights from long articles and pages.
+- **Chat History Navigation**: Each session is saved under "New Chat" for future access and tracking.
+- **Downloadable Content**: Export and save the extracted website text in `.txt` format.
+- **Perfect for Researchers & Analysts**: Useful for students, professionals, journalists, and content creators.
 
 ## 🖥️ Usage
 
-1. Enter the YouTube video URL.
-2. Ask a specific question related to the video content.
-3. Get AI-driven responses based on the transcript.
-4. Download the transcript for further analysis if needed
+1. Enter the URL of any website or article.
+2. The chatbot fetches and processes the page content automatically.
+3. Ask specific questions related to the website's information.
+4. Get AI-powered, real-time answers based on the page content.
+5. Download the extracted content as a `.txt` file for offline reference.
 
 ---
-
-## Website Demo
-
-![Website UI](assets/demo.png)
-
 
 ## 📦 Custom Packages
 - **`transcript_extractor`**: Extracts and preprocesses YouTube video transcripts efficiently.
@@ -41,7 +37,7 @@ pip install -r requirements.txt
 ```
 
 #### 2️⃣ Configure the `.env` File
-Create a `.env` file inside the project directory (`YouTube-support-chatbot/.env`) and add your Groq API key:
+Create a `.env` file inside the project directory (`PrashnaAI-Website-Chatbot/.env`) and add your Groq API key:
 ```ini
 GROQ_API_KEY=<your-api-key>
 ```
