@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 #### 2️⃣ Configure the `.env` File
-Create a `.env` file inside the project directory (`PrashnaAI-Website-Chatbot/.env`) and add your Groq API key:
+Create a `.env` file inside the project directory (`prashnaAI-website-chatbot/.env`) and add your Groq API key:
 ```ini
 GROQ_API_KEY=<your-api-key>
 ```
