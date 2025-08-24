@@ -4,8 +4,6 @@
 
 ## Chat Now: [PrashnaAI](https://prashna-web.onrender.com/)
 
----
-
 ## 🚀 Features
 
 - **URL-to-Chat AI Assistant**: Enter any website URL and chat in real-time with its content.
