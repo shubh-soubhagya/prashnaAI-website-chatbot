@@ -79,14 +79,17 @@ def ask_groq(question, content, client):
         Please answer the following question:
         {question}
         
-        If the answer is not found in the content, please say "I couldn't find information about that in the website content."
+        If the answer is not found in the content, please say "I couldn't find information about that in the website content.
+        Dont answer in markdown format with special characters, answer in normal text.
+        Dont ever give answer in points, always give answer in paragraph."
+
         """
         
         # Make API call to Groq
         response = client.chat.completions.create(
             model="gemma2-9b-it",  # You can change this to a model of your choice
             messages=[
-                {"role": "system", "content": "You are a helpful assistant that answers questions based on website content."},
+                {"role": "system", "content": "You are a helpful assistant that answers questions based on website content. Dont ever give answer in points, always give answer in paragraph."},
                 {"role": "user", "content": prompt}
             ],
             max_tokens=500
